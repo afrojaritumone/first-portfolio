@@ -1,0 +1,82 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+.orange {
+    color: orange;
+}
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img {
+    width: 80%;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.top-banner {
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.last-width {
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 1%;
+}
+
+.last-width img {
+    width: 80%;
+}
+.dream-big {
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.orange-color {
+    color: orange;
+}
+.dev-experience {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-bottom: 80px;
+    box-shadow: 10px 10px 40px #706e6d;
+}
+.experience {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#orange {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(231, 88, 63) ,salmon);
+    border-image-slice: 1;
+}
+
+#blue {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
